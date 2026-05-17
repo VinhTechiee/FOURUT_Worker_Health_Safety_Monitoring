@@ -1,0 +1,59 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+out/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Arduino / embedded temporary files
+*.tmp
+*.bak
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+secrets/
+credentials/
+private/
+certs/
+certificates/
+
+# AWS / IoT credentials and private keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*private*
+*secret*
+*credential*
+
+# Do not push compressed duplicates
+*.zip
+*.rar
+*.7z
+
+# Optional large media
+*.mov
+*.avi
+# Large demo videos
+*.mp4

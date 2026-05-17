@@ -1,0 +1,13 @@
+{
+  "worker_id": "W001",
+  "heart_rate": 126,
+  "spo2": 93,
+  "aqi": 70,
+  "svm": 31.2,
+  "sdnn": 18.9,
+  "rmssd": 14.1,
+  "ibi_count": 130,
+  "alarm_active": true,
+  "alarm_level": 3,
+  "fall_detected": true
+}

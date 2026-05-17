@@ -1,0 +1,29 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "AllowWriteToDynamoDBTable",
+			"Effect": "Allow",
+			"Action": [
+				"dynamodb:PutItem"
+			],
+			"Resource": "arn:aws:dynamodb:ap-southeast-1:<ACCOUNT_ID>:table/WorkerHealthData"
+		},
+		{
+			"Sid": "AllowWriteToS3Bucket",
+			"Effect": "Allow",
+			"Action": [
+				"s3:PutObject"
+			],
+			"Resource": "arn:aws:s3:::worker-historical-data/*"
+		},
+		{
+			"Sid": "AllowPublishToSNSTopic",
+			"Effect": "Allow",
+			"Action": [
+				"sns:Publish"
+			],
+			"Resource": "arn:aws:sns:ap-southeast-1:<ACCOUNT_ID>:WorkerAlerts"
+		}
+	]
+}
