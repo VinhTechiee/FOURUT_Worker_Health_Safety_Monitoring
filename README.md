@@ -852,6 +852,13 @@ Phase 2 introduces SDNN and RMSSD-based fatigue-warning logic.
 The prototype demonstrates MQTT ingestion, Lambda classification, DynamoDB storage, S3 logging, and SNS notification.
 
 ---
+## Demonstration Video
+
+The full demonstration video is not stored directly in this repository because of GitHub file-size limitations.
+
+Demo video link: https://drive.google.com/drive/folders/1aB-XhZCt7b9TdDc2LUzQUkd2hUs8xxb0
+
+---
 
 ## Authors
 
