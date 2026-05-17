@@ -1,0 +1,15 @@
+# Force Arduino sketches to be detected as Arduino
+*.ino linguist-language=Arduino 
+
+*.pde linguist-language=Arduino
+
+# Exclude documentation/media from language statistics
+*.md linguist-documentation
+
+*.pdf linguist-documentation
+
+docs/** linguist-documentation
+
+README_assets/** linguist-documentation
+
+demo/** linguist-documentation
