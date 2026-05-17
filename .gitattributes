@@ -1,15 +1,14 @@
-# Force Arduino sketches to be detected as Arduino
-*.ino linguist-language=Arduino 
+# Force Arduino edge firmware
+*.ino linguist-language=Arduino
+phase2_prototype/01_Arduino_Edge_Code/** linguist-language=Arduino
 
-*.pde linguist-language=Arduino
+# Exclude cloud backend code from GitHub language statistics
+# The Lambda code is still included in the repository, but not counted in the language bar.
+phase2_prototype/02_AWS_Lambda_Code/** linguist-documentation
 
-# Exclude documentation/media from language statistics
+# Exclude documentation and media
 *.md linguist-documentation
-
 *.pdf linguist-documentation
-
 docs/** linguist-documentation
-
 README_assets/** linguist-documentation
-
 demo/** linguist-documentation
