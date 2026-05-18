@@ -620,7 +620,7 @@ A typical end-to-end data cycle is:
 | Validation | Architecture-level design | Controlled prototype testing |
 
 ---
-
+ 
 ## Repository Structure
 
 A clean repository structure is recommended as follows:
