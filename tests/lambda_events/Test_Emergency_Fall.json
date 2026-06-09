@@ -1,0 +1,19 @@
+{
+  "worker_id": "W001",
+  "heart_rate": 126,
+  "spo2": 93,
+  "aqi": 70,
+  "pm25_ugm3": 12.0,
+  "pm10_ugm3": 30.0,
+  "env_node_id": 1,
+  "env_seq": 106,
+  "env_age_ms": 650,
+  "env_online": true,
+  "svm": 31.2,
+  "sdnn": 18.9,
+  "rmssd": 14.1,
+  "ibi_count": 130,
+  "alarm_active": true,
+  "alarm_level": 3,
+  "fall_detected": true
+}
